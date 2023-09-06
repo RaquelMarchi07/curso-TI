@@ -1,0 +1,13 @@
+// 1. 1.	Desenvolva um script que leia um valor em metros e exiba em centímetros e milímetros;
+//
+
+var prompt = require('prompt-sync');
+var prompt = prompt();
+
+var metros = parseFloat(prompt('Informe o valor em metros: '));
+
+var cm = metros * 100;
+var mm = metros * 1000;
+
+console.log("centimentros:",cm,"milimetros:",mm);
+

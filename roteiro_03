@@ -1,0 +1,13 @@
+// 3.	Desenvolva um script que leia um número e mostre o seu dobro, triplo e raiz quadrada;
+//
+
+var prompt = require('prompt-sync');
+var prompt = prompt();
+
+var num = parseFloat(prompt('Informe um número: '));
+
+var dobro = num * 2;
+var triplo = num * 3;
+
+var raiz = num ** (1/2);
+

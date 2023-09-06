@@ -1,0 +1,17 @@
+// 4.	Desenvolva um script que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta pinta uma área de 2m².
+
+//
+
+var prompt = require('prompt-sync');
+var prompt = prompt();
+
+
+var largura = parseFloat(prompt('Informe a largura da parede (m): '));
+var altura = parseFloat(prompt('Informe a altura da parede (m): '));
+
+var area = largura * altura;
+var litros = area / 2; 
+
+console.log("Será necessário:",litros, "litros");
+
+
