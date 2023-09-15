@@ -34,3 +34,4 @@ console.log(numero2, "x 1 ", numero2 * 8);
 console.log(numero2, "x 1 ", numero2 * 9);
 console.log(numero2, "x 1 ", numero2 * 10);
 }
+
