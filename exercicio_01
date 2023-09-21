@@ -1,0 +1,16 @@
+var prompt= require("prompt-sync");
+var prompt=prompt();
+
+var metro= prompt("informe um número: ");
+var cm = metro * 100;
+var mm = metro * 1000;
+
+console.log("O número em centimetros é =", cm, "e em milimetros é =", mm);
+
+
+
+
+
+
+
+
